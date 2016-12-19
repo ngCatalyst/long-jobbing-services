@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:LongJobbing" x:Class="LongJobbing.LongJobbingPage">
+	<StackLayout BackgroundColor="#ECF0F1" Margin="0, 20, 0, 0" Padding="10, 10, 10, 10">
+		<Label>Welcome {username}, select the relevant time</Label>
+		<Entry Text="123" x:Name="txtUserID" IsEnabled="false" BackgroundColor="#F1F1F1"></Entry>
+		<Entry Text="456" x:Name="txtJobID" ></Entry>
+		<Button Text="10 Minutes" BackgroundColor="#6AB0DF" BorderRadius="0" TextColor="#FFFFFF" Clicked="SendSignal"></Button>
+		<Button Text="20 Minutes" BackgroundColor="#6AB0DF" BorderRadius="0" TextColor="#FFFFFF" Clicked="SendSignal"></Button>
+		<Button Text="30 Minutes" BackgroundColor="#6AB0DF" BorderRadius="0" TextColor="#FFFFFF" Clicked="SendSignal"></Button>
+	</StackLayout>
+</ContentPage>
